@@ -27,9 +27,8 @@
 
 @media (max-width: 468px) {
     .carousel-caption {
-        width: 200px;
+        width: 150px;
         top: 18%;
-        
         margin-left: 25px;
         text-align: center;
         margin: 3px;
