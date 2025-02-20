@@ -27,8 +27,8 @@
 
 @media (max-width: 468px) {
     .carousel-caption {
-        width: 150px;
-        top: 18%;
+        width: 300px;
+        top: 15%;
         margin-left: 25px;
         text-align: center;
         margin: 3px;
@@ -207,7 +207,7 @@ h2 {
 }
 
 .section-five {
-    background-image: url(assests/images/bagroundimg.jpg);
+    background-image: url(/images/bagroundimg.jpg);
     background-size: cover;
 }
 
