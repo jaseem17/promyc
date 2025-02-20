@@ -207,7 +207,7 @@ h2 {
 }
 
 .section-five {
-    background-image: url(images/bagroundimg.jpg);
+    background-image: url(/images/bagroundimg.jpg);
     background-size: cover;
 }
 
@@ -217,7 +217,7 @@ h2 {
 }
 
 .section-seven {
-    background-image: url(images/bagroundimg.jpg);
+    background-image: url(/images/bagroundimg.jpg);
 }
 
 .p2 {
