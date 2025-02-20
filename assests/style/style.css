@@ -1,0 +1,332 @@
+.nav-link {
+    color: rgb(255, 253, 253);
+}
+
+.navbar {
+    align-items: center;
+}
+
+.navbar-nav {
+    margin-right: 200px;
+}
+
+.logo {
+    margin-left: 200px;
+}
+
+.navbar-toggler {
+    background-color: rgba(255, 255, 255, 0.466);
+    margin: 15px;
+
+
+}
+
+@media (max-width: 468px) {}
+
+
+
+@media (max-width: 468px) {
+    .carousel-caption {
+        width: 300px;
+        top: 18%;
+        margin-left: 25px;
+        text-align: center;
+        margin: 3px;
+    }
+}
+
+
+.carousel-caption {
+    padding-bottom: 220px;
+    font-family: "Permanent Marker", serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+.carousel-caption p {
+    font-family: "Lato", serif;
+    font-weight: 700;
+    font-style: normal;
+
+}
+
+h2 {
+    font-size: 40px;
+}
+
+.p1 {
+    text-align: center;
+    background-color: white;
+    padding: 50px;
+
+
+}
+
+.p1 h1 {
+    font-family: "Lato", serif;
+    font-weight: 700;
+    font-style: normal;
+
+}
+
+.p1 p {
+    font-family: "Lato", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.second {
+    font-family: "Permanent Marker", serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+.second-2 {
+    font-family: "Lato", serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+.section-three h1 {
+    font-family: "Lato", serif;
+    font-weight: 400;
+    font-style: normal;
+
+
+}
+
+.section-four {
+    font-family: "Lato", serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+.section-five {
+    font-family: "Lato", serif;
+    font-weight: 400;
+    font-style: normal;
+
+
+}
+
+.second11 {
+    padding-top: 20px;
+}
+
+.head-6 {
+    font-family: "Permanent Marker", serif;
+    font-weight: 400;
+    font-style: normal;
+
+
+}
+
+.subhead-6 {
+
+    font-family: "Lato", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.section-seven {
+    font-family: "Lato", serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+.section-eight {
+    font-family: "Lato", serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+.sss {
+    font-family: "Permanent Marker", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.ss2 {
+    font-family: "Lato", serif;
+    font-weight: 400;
+    font-style: normal;
+
+
+}
+
+
+
+.topic-2 {
+    font-family: "Lato", serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+.topic {
+    align-items: justify;
+}
+
+.secondimage {
+
+    width: 900px;
+}
+
+.carousel-inner img {
+    background-size: cover;
+    font-family: "Permanent Marker";
+    font-size: 24px;
+    font-style: normal;
+}
+
+.section-two {
+    background-color: black;
+    color: white;
+
+
+}
+
+.second {
+    padding-top: 100px;
+    padding-left: 50px;
+}
+
+
+.p2 {
+    text-align: center;
+    background-color: white;
+    padding: 30px;
+
+
+}
+
+.section-five {
+    background-image: url(/images/bagroundimg.jpg);
+    background-size: cover;
+}
+
+.section-six {
+    background-color: black;
+    color: white;
+}
+
+.section-seven {
+    background-image: url(/images/bagroundimg.jpg);
+}
+
+.p2 {
+    background-color: #F8F2E7;
+    padding: 80px;
+
+}
+
+.topic-2 {
+    text-align: center;
+}
+
+.secondimg {
+    padding-right: 40px;
+    background-color: white;
+    text-align: center;
+
+}
+
+.thirdimg {
+    width: 1000px;
+}
+
+.head-2 {
+    padding-top: 100px;
+
+}
+
+.text-2 {
+    color: black;
+    background-color: white;
+}
+
+.head-6 {
+    padding: 40px;
+}
+
+
+.section-seven {
+    padding: 90px;
+
+}
+
+.head-8 {
+    padding-top: 40px;
+}
+
+.card-section {
+    padding: 40px;
+    background-color: #F8F2E7;
+
+
+}
+
+.card-container {
+    text-align: center;
+
+}
+
+.textcard {
+    align-items: center;
+
+}
+
+.card {
+    height: 520px;
+
+}
+
+.sss {
+    padding-top: 50px;
+}
+
+
+.footer {
+    background-color: black;
+}
+
+.footer-img {
+    height: 50px;
+}
+
+.footer-row {
+    padding-top: 50px;
+}
+
+
+
+.section-nine {
+    background-color: white;
+}
+
+.border-box {
+    margin-bottom: 20px;
+    width: 350px;
+    background-color: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    border-top: transparent;
+}
+
+.copyright {
+    color: white;
+    text-align: start;
+    padding: 80px;
+}
+
+@media only screen and (max-width: 468px) {}
+
+section {
+    overflow-x: hidden;
+}
