@@ -8,10 +8,11 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Permanent+Marker" />
-    <link rel="stylesheet" href="assests/style/style.css">
+    <link rel="stylesheet" href="/assests/style/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="/promyc/promyc/assests/images/mainlogo.png" type="image/x-icon">
 
 </head>
 
@@ -53,7 +54,7 @@
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false">TechMyc</a>
+                                data-bs-toggle="dropdown" aria-expanded="false">Contact</a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                                 <li><a class="dropdown-item" href="#">whatsapp</a></li>
                                 <li><a class="dropdown-item" href="#">Twitter</a></li>
@@ -69,32 +70,59 @@
         </section>
     </header>
     <!-- navbar ending -->
-    <!-- carousel starting -->
+
     <section class="section-one">
-        <div id="examplecarousel" data-bs-ride="carousel">
+        <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
 
 
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img class="d-block w-100" src="assests/images/banner.jpg">
-                    <div class="carousel-caption">
-                        <h2>Quite A Boring Ingredient</h2>
-                        <p> Promyc—the next level mycoprotein ingredient</p>
-
-                    </div>
+                    <img src="assests/images/banner.jpg" class="d-block w-100" alt="banner">
                 </div>
-
-
+                <div class="carousel-caption justify-content-center">
+                    <h2 class="head">Quite A Boring Ingredient</h2>
+                    <p class="subhead">Promyc—the next level mycoprotein ingredient</p>
+                </div>
+                <div class="carousel-item">
+                    <img src="assests/images/banner.jpg" class="d-block w-100" alt="banner">
+                </div>
+                <div class="carousel-caption justify-content-center">
+                    <h2 class="head">Quite A Boring Ingredient</h2>
+                    <p class="subhead">Promyc—the next level mycoprotein ingredient</p>
+                </div>
+                <div class="carousel-item">
+                    <img src="assests/images/banner.jpg" class="d-block w-100" alt="banner">
+                </div>
+                <div class="carousel-caption justify-content-center">
+                    <h2 class="head">Quite A Boring Ingredient</h2>
+                    <p class="subhead">Promyc—the next level mycoprotein ingredient</p>
+                </div>
             </div>
+
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
     </section>
-    <!-- carousel  end -->
 
     <div class="p1">
         <h1>Promyc® as an Industrial Ingredient</h1>
         <p class="topic">Promyc® is a vegan mycoprotein ingredient produced through biotechnology with
             the fermentation process as a core.
-            Our production process allows us to implement a lot more time-
-            ,<br> and cost- and feedstock-efficient
+            Our production process allows us to implement a lot more time and cost- and feedstock-efficient
             than traditional farming, with much less environmental impact.
             It also enables the decentralization of food production,
             making it possible to produce Promyc® wherever needed. </p>
@@ -104,7 +132,8 @@
         <div class="row">
 
             <div class=" text-7 col-md-6">
-                <img class="img-fluid" src="assests/images/Mycorena_220217_0433 copy 1 (1).jpg" alt="image3">
+                <img class="img-fluid" src="assests/images/Mycorena_220217_0433 copy 1 (1).jpg"
+                    alt="image3">
             </div>
             <div class="col-md-6">
                 <h3 class="second">Promyc 1.0</h2>
@@ -158,10 +187,11 @@
         <div class="row">
             <div class="col-md-6">
                 <h3 class="head-2">What Can You Make with Promyc®?</h2>
-                    <p class="subhead-2">Thanks to the features that Promyc® entails, it results in a versatile
-                        ingredient
-                        . <br>It can be used in various kinds of food applications with
-                        different tastes and flavours to meet growing consumer demand for alternative vegan protein
+                    <p class="subhead-2 text-center">Thanks to the features that Promyc® entails, it results in a
+                        versatile
+                        ingredientIt can be used in various kinds of
+                        food applications withdifferent tastes and flavours to meet growing consumer demand for
+                        alternative vegan protein
                         sources.
                     </p>
             </div>
@@ -171,7 +201,7 @@
         </div>
     </section>
 
-    <section class="section-five" style="background-image: url('assests/images/bagroundimg.jpg');">
+    <section class="section-five" style="background-image: url(assests/images/bagroundimg.jpg);">
         <div class="container text-center">
             <h2 class="head-5">The Advantages of Working with Promyc®</h2>
             <p class="subhead-5 ">
@@ -233,7 +263,7 @@
 
     </section>
 
-    <section class="section-seven"  style="background-image: url('assests/images/bagroundimg.jpg');">
+    <section class="section-seven" style="background-image: url(assests/images/bagroundimg.jpg);">
         <div class="text-7 container text-center">
             <h2 class="head-7">The Advantages of Working with Promyc®</h2>
             <p class="subhead-7 ">
@@ -263,7 +293,7 @@
             </div>
             <div class="col-md-6">
 
-                <h2 class="head-8">What Can You Make with Promyc Fat?</h2>
+                <h3 class="head-8">What Can You Make with Promyc Fat?</h3>
                 <p class="subhead-8">Promyc fat can be used in many different products.
                     From burgers and meatballs to achieve a marbled structure, to emulsified
                     products such as sausages or high moisture extruded meat-like structures.
@@ -375,7 +405,7 @@
             <div class="col-md-6">
                 <img class="ninethimg img-fluid" src="assests/images/lastimg.jpg" alt="nine">
             </div>
-            <div class="col-md-6">
+            <div class="last  col-md-6">
                 <h2 class="sss">DO YOU WANT TO WORK WITH THE FUTURE OF FOOD?</h2>
                 <p class="ss2"> Are you a restaurant, food producer, or store owner interested in including
                     Promyc® in your assortment?
@@ -393,7 +423,7 @@
 
     <section class="footer">
         <footer class="footer-container container text-white">
-            <div class="footer-row row">
+            <div class="end   footer-row row">
                 <div class="col-12 col-md-6 mb-4">
                     <img class="footer-img" src="assests/images/footerlogo.png" alt="footerlogo"
                         style="max-width: 100%; height: auto;">
@@ -407,9 +437,9 @@
                     </div>
                 </div>
 
-                <div class="col-12 col-md-6 mb-4">
+                <div class=" col-12 col-md-6 mb-4">
                     <h4>SUBSCRIBE FOR OUR LATEST NEWS!</h4><br>
-                    <input class="border-box" type="text" placeholder="Please fill in your mail."
+                    <input class="box  border-box" type="text" placeholder="Please fill in your mail."
                         style="width: 70%; max-width: 300px;">
                     <button class="btn btn-outline-light"
                         style="margin-left: 20px; border-radius: 20px;">SUBSCRIBE</button>
@@ -421,13 +451,13 @@
             </div>
 
             <div class="row text-white justify-content-center">
-                <div class="contact col-12 col-md-3 mb-4">
+                <div class="ft  contact col-12 col-md-3 mb-4">
                     <div class="t1">Gamlestadsvagen 2 B27, 415 02</div>
                     <div class="t2">Gothenburg, Sweden</div>
                     <div class="t3"><i class="bi bi-telephone"></i> +47 761 71 81 23</div>
                     <div class="t4"><i class="bi bi-envelope"></i> mailto:info@mycorena.com</div>
                 </div>
-                <div class="mycorena col-12 col-md-3 mb-4">
+                <div class="ft  mycorena col-12 col-md-3 mb-4">
                     <div class="h4">MYCORENA</div>
                     <div class="mca">About Us</div>
                     <div class="mca">Contact Us</div>
@@ -435,13 +465,13 @@
                     <div class="mca">Privacy Policy</div>
                     <div class="mca">Cookie Policy</div>
                 </div>
-                <div class="shortcuts col-12 col-md-3 mb-4">
+                <div class="ft  shortcuts col-12 col-md-3 mb-4">
                     <div class="h4">SHORTCUTS</div>
                     <div class="mca">FAQ</div>
                     <div class="mca">Promyc</div>
                     <div class="mca">Technology</div>
                 </div>
-                <div class="connect col-12 col-md-3 mb-4">
+                <div class="ft  connect col-12 col-md-3 mb-4">
                     <div class="h4">CONNECT</div>
                     <div>Facebook</div>
                     <div>Instagram</div>
@@ -452,15 +482,18 @@
             </div>
 
             <div class="row">
-                <div class="copyright col-12">
+                <div class="lst  copyright col-12">
                     <i class="bi bi-c-circle"></i> &nbsp; copyright@2022 Mycorena
                 </div>
+
             </div>
         </footer>
     </section>
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
 </body>
 
 </html>
