@@ -567,7 +567,7 @@ section {
     text-align: center;
     padding: 80px;
     outline: round;
-    background-image: url(/assests/images/bagroundimg.jpg);
+    
     background-repeat: no-repeat;
     background-size: cover;
     color: rgb(0, 0, 0);
@@ -584,7 +584,7 @@ section {
 .us {
     
    
-    background-image: url(/assests/images/secondimg.jpg);
+   
     height: 350px;
     background-color: rgba(0, 0, 0, 0.9);
     background-size: cover;
