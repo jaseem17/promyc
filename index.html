@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Permanent+Marker" />
-    <link rel="stylesheet" href="assests/style/style.css">
+    <link rel="stylesheet" href="/assests/style/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
@@ -52,14 +52,8 @@
                         <li class="nav-item">
                             <a class="nav-link text-white" href="#">About us</a>
                         </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false">Contact</a>
-                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" href="#">whatsapp</a></li>
-                                <li><a class="dropdown-item" href="#">Twitter</a></li>
-                                <li><a class="dropdown-item" href="#">Socialmedia</a></li>
-                            </ul>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#">Contact</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link text-white" href="#"><i class="bi bi-search"></i></a>
@@ -437,19 +431,32 @@
                     </div>
                 </div>
 
-                <div class=" col-12 col-md-6 mb-4">
-                    <h4>SUBSCRIBE FOR OUR LATEST NEWS!</h4><br>
-                    <input class="box  border-box" type="text" placeholder="Please fill in your mail."
-                        style="width: 70%; max-width: 300px;">
-                    <button class="btn btn-outline-light"
-                        style="margin-left: 20px; border-radius: 20px;">SUBSCRIBE</button>
-                    <div>
-                        <input type="checkbox" id="checkbox">
-                        <label for="checkbox" class="checkbox"> I agree with terms and conditions</label>
+                <div class="col-12 col-md-6 ">
+                    <form class="was-validated">
+                        <div class=" form-group ">
+                            <label for="exampleInputEmail1">
+                                <h4>SUBSCRIBE FOR OUR LATEST NEWS!</h4>
+                            </label><br>
+                            <input class="border-box" type="email" class="form-control " id="exampleInputEmail1"
+                                aria-describedby="emailHelp" placeholder="Please fill in your mail."  required
+                                style="width: 70%; max-width: 300px;"> 
+                                <div class="valid-feedback">Valid</div>   
+                               
+                                 <button class="btn btn-outline-light"
+                                style="margin-left: 0px; border-radius: 20px;">SUBSCRIBE</button>
+                                <div class="invalid-feedback">Please enter valid email id</div>
+                           
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="myCheck" 
+                        name="remember" required>
+                            <label class="form-check-label" for="myCheck">I agree with terms and
+                                conditions</label>
+                            <div class="valid-feedback">Valid.</div>
+                            <div class="invalid-feedback">Check this checkbox to 
+                        continue.</div>
                     </div>
                 </div>
-            </div>
-
             <div class="row text-white justify-content-center">
                 <div class="ft  contact col-12 col-md-3 mb-4">
                     <div class="t1">Gamlestadsvagen 2 B27, 415 02</div>
