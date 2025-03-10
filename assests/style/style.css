@@ -579,8 +579,7 @@ section {
     }
   
      :hover.text-blk {
-      background-color:rgba(147, 147, 147, 0.66);
-      border-radius: 10px;
+      transform: scale(1.5);
      }
 .a1{
     height: 100px;
@@ -610,12 +609,12 @@ section {
 }
 
 :hover.us h2{
-  background-color: rgba(155, 155, 155, 0.658);
+ transform: scale(1.5);
 
 }
 
 :hover.us p{
-  background-color: rgba(184, 184, 184, 0.463) ;
+  transform: scale(1.5);
 }
 
 
@@ -632,9 +631,6 @@ section {
     background-image: url(/assests/images/bagroundimg.jpg);
 }
 
-:hover.responsive-container-block{
-
-}
 
 
   .new_home_web .text-blk.subHeading {
