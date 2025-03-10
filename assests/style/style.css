@@ -8,7 +8,10 @@
     background-image: linear-gradient(to bottom, black, rgba(255, 255, 255, 0));
 }
 
-
+:hover.nav-item{
+  background-color: rgba(133, 134, 133, 0.614);
+  border-radius: 10px;
+}
 
 .navbar-nav {
     margin-right: 200px;
@@ -16,7 +19,7 @@
 
 @media(max-width:468px) {
     .navbar-brand {
-        justify-items: center;
+        justify-items: start;
     }
 
 }
@@ -44,16 +47,18 @@
     }
 }
 
-@media (max-width:468px) {
-    .logo {
-        margin-bottom: 25px;
-    }
 
-}
 
 
 .logo {
     margin-left: 200px;
+}
+@media (max-width:468px) {
+  .logo {
+      /* margin-bottom: 25px; */
+      margin-left: 10px;
+  }
+
 }
 
 .navbar-toggler {
@@ -493,7 +498,7 @@ h2 {
 
 @media (max-width:468px) {
     .footer-row {
-        /* margin-left: 10px; */
+       
         margin-right: 90px;
     }
 
@@ -571,12 +576,12 @@ section {
     background-repeat: no-repeat;
     background-size: cover;
     color: rgb(0, 0, 0);
-    
-    
-
-
-}
-
+    }
+  
+     :hover.text-blk {
+      background-color:rgba(147, 147, 147, 0.66);
+      border-radius: 10px;
+     }
 .a1{
     height: 100px;
 }
@@ -598,8 +603,19 @@ section {
 
 }
 
+
+
 .us h2{
     margin-top: 40px;
+}
+
+:hover.us h2{
+  background-color: rgba(155, 155, 155, 0.658);
+
+}
+
+:hover.us p{
+  background-color: rgba(184, 184, 184, 0.463) ;
 }
 
 
@@ -614,6 +630,10 @@ section {
 
 .cont{
     background-image: url(/assests/images/bagroundimg.jpg);
+}
+
+:hover.responsive-container-block{
+
 }
 
 
@@ -643,6 +663,8 @@ section {
     max-width: 1320px;
     z-index: 50;
   }
+
+ 
   
   .new_home_web .responsive-cell-block.wk-tab-12.wk-mobile-12.wk-desk-12.wk-ipadp-12 {
     width: 50%;
@@ -652,6 +674,7 @@ section {
     padding-left: 10px;
   }
   
+ 
   .new_home_web .send:hover {
     background-image: initial;
     background-position-x: initial;
@@ -665,11 +688,11 @@ section {
   }
   
   .new_home_web .send {
-    font-size: 18px;
+    font-size: 14px;
     color: white;
     font-weight: 600;
-    background-color: #ea5541;
-    width: 80%;
+    background-color:green;
+    width: 30%;
     text-align: center;
     padding-top: 15px;
     padding-right: 0px;
@@ -817,6 +840,7 @@ section {
   .new_home_web .responsive-cell-block {
     min-height: 75px;
   }
+ 
   
   .new_home_web textarea:focus {
     outline-color: initial;
@@ -849,6 +873,8 @@ section {
     margin-bottom: 40px;
     margin-left: auto;
   }
+
+  
   
   .new_home_web * {
     font-family: Nunito, sans-serif;
@@ -880,7 +906,7 @@ section {
     margin-bottom: 0px;
     margin-left: 0px;
   }
-  
+
   .new_home_web .orangeText {
     color: #ea5541;
   }
@@ -1065,6 +1091,11 @@ section {
     .new_home_web .responsive-cell-block.wk-ipadp-6.wk-tab-12.wk-mobile-12.wk-desk-6 {
       margin: 0 0 10px 0;
     }
+  }
+
+  .fm{
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 
  
