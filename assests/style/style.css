@@ -42,7 +42,10 @@
 @media (max-width: 768px) {
     .navbar-nav {
         margin-right: 100px;
-        background-color: #0a3603f3;
+        background-color: #000000;
+        text-align: center;
+    
+        transition: calc(0.5sc);
 
     }
 }
@@ -584,6 +587,7 @@ section {
 .a1{
     height: 100px;
 }
+
 
 .us {
     
