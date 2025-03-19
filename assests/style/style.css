@@ -9,12 +9,19 @@
 }
 
 :hover.nav-item{
-  background-color: rgba(133, 134, 133, 0.614);
+  background-color:green;
   border-radius: 10px;
 }
 
 .navbar-nav {
     margin-right: 200px;
+}
+
+@media(max-width:468px){
+  .head{font-size: 20px;
+    margin-top: 50px;
+
+  }
 }
 
 @media(max-width:468px) {
@@ -557,7 +564,7 @@ section {
 }
 
 ::-webkit-scrollbar {
-    width: 15px;
+    width: 8px;
 }
 
 ::-webkit-scrollbar-track {
@@ -598,7 +605,7 @@ section {
     background-size: cover;
     overflow: hidden;
     filter: brightness(70%);
-    color:white;
+    color:rgb(255, 255, 255);
    text-align: center;
     padding-top: 100PX;
     transition: background-color 0.3s ease, box-shadow 0.3s ease, transform 0.3s ease;
@@ -610,6 +617,11 @@ section {
 
 .us h2{
     margin-top: 40px;
+    color: white;
+}
+
+.topHead p{
+  color: green;
 }
 
 :hover.us h2{
